@@ -1,15 +1,24 @@
 
 public class Usuario {
 
-    private String name;
+    private String nome;
     private String senha;
     private String email;
 
-    public Usuario(String name, String senha, String email)
+    public Usuario(String nome, String senha, String email)
     {
-        this.name = name;
-        private this.senha = senha;
-        this.email = email
+        this.nome = nome;
+        this.senha = senha;
+        this.email = email;
     }
 
+    public String getNome()
+    {
+        return nome;
+    }
+
+    public String getEmail()
+    {
+        return email;
+    }
 }
