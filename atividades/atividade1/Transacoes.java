@@ -15,7 +15,7 @@ public class Transacoes {
 
         if(de.sacar(valor))
         {
-            para.deposositar(valor);
+            para.depositar(valor);
             System.out.println("Transação de ID: " + dados[3] + " para a conta " + dados[0] + " foi realizada com sucesso." );
         }
         else 

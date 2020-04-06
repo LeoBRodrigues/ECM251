@@ -15,7 +15,7 @@ public class Conta {
     }
 
 
-    public void deposositar(double valor)
+    public void depositar(double valor)
     {
         this.saldo += valor;
     }
