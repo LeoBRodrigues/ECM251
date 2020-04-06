@@ -20,7 +20,7 @@ public class Transacoes {
         }
         else 
         {
-            System.out.println("Não foi possível completar a transação");
+            System.out.println("Não foi possível completar a transação: Saldo insuficiente");
         }
         
 

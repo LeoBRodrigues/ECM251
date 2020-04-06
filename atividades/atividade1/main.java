@@ -3,7 +3,7 @@
     18.02401-7
 */
 
-public class main{
+public class Main{
     public static void main(String[] args){
 
         Usuario usuario1 = new Usuario("Leo", "1234", "leo@email.com");
